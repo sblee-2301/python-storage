@@ -22,8 +22,8 @@ from google.cloud import storage
 
 def make_blob_public(bucket_name, blob_name):
     """Makes a blob publicly accessible."""
-    # bucket_name = "your-bucket-name"
-    # blob_name = "your-object-name"
+    # bucket_name = "ypublic-sblee"
+    # blob_name = "user_icon.jpg"
 
     storage_client = storage.Client()
     bucket = storage_client.bucket(bucket_name)
